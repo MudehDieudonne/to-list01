@@ -1,5 +1,5 @@
-document.getElementById('addTaskBtn').addEventListener('click', () => {
-  const taskInput = document.getElementById('taskInput')
+document.getElementById('add-taskbtn').addEventListener('click', () => {
+  const taskInput = document.getElementById('task-input')
   const taskList = document.getElementById('task-list')
 
   const taskText = taskInput.value.trim()
