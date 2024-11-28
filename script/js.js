@@ -1,7 +1,7 @@
 document.getElementById('addTaskBtn').addEventListener('click', () => {
   const taskInput = document.getElementById('taskInput')
   const taskList = document.getElementById('taskList')
-    
+
   const taskText = taskInput.value.trim()
   if (taskText === '') {
     alert('Please enter a task.')
@@ -16,7 +16,7 @@ document.getElementById('addTaskBtn').addEventListener('click', () => {
 
   // Add click event to toggle completion
   taskSpan.addEventListener('click', () => {
-  listItem.classList.toggle('completed')
+    listItem.classList.toggle('completed')
   })
 
   // Append task text and add list item to the task list
