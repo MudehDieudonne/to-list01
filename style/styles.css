@@ -50,12 +50,12 @@ button:hover {
   background-color: #1092b3;
 }
 
-#taskList {
+#task-list {
   list-style: none;
   padding: 0;
 }
 
-#taskList li {
+#task-list li {
   padding: 10px 15px;
   border-bottom: 1px solid #ddd;
   display: flex;
@@ -63,7 +63,7 @@ button:hover {
   align-items: center;
 }
 
-#taskList li.completed {
+#task-list li.completed {
   text-decoration: line-through;
   color: #999;
 }

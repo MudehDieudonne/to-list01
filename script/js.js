@@ -1,6 +1,6 @@
 document.getElementById('addTaskBtn').addEventListener('click', () => {
   const taskInput = document.getElementById('taskInput')
-  const taskList = document.getElementById('taskList')
+  const taskList = document.getElementById('task-list')
 
   const taskText = taskInput.value.trim()
   if (taskText === '') {
