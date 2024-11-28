@@ -25,4 +25,4 @@ document.getElementById('addTaskBtn').addEventListener('click', () => {
 
   // Clear the input
   taskInput.value = ''
-});
+})
